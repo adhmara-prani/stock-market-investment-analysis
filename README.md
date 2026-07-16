@@ -3,7 +3,8 @@
 ## Project Overview
 
 This repository contains a systematic algorithmic trading pipeline designed to predict short-term, index-relative momentum breakouts across NIFTY50 stocks. The dataset used in this project and for the training of the model developed can be found here:
-`https://huggingface.co/datasets/xxparthparekhxx/indian-stock-market-minute-data`
+
+<https://huggingface.co/datasets/xxparthparekhxx/indian-stock-market-minute-data>
 
 A major challenge with standard machine learning models in quantitative finance is the "Beta Illusion"—models often appear highly accurate simply by predicting upward movement during a broader market bull run. Furthermore, raw technical indicators scale with absolute price, making them non-comparable across different assets. This project solves these issues by transitioning from absolute price forecasting to **cross-sectional relative momentum**, neutralizing market beta to isolate idiosyncratic stock alpha.
 
