@@ -23,7 +23,8 @@ To prevent the model from overfitting to static price levels or broad market ral
 
 Beyond standard indicators, the pipeline incorporates academically-backed predictive features tailored for daily OHLCV data:
 
-- **RSI:** Momentum indicator Measuring the overbuying or under
+- **RSI:** Momentum indicator measuring the overbuying or underbuying of the given stock.
+- **MACD:** Moving Average Convergence/Divergence (MACD) and its histogram is the ratio of EMA spanned across short-term 12 days and 26 days and identifies future possibilites of stocks and their sensitivity.
 - **52-Week High Proximity:** Measuring momentum continuation.
 - **Volume-Price Divergence:** Identifying anomalies where price drops but volume spikes (and vice versa) to flag structural reversals.
 - **Sector-Relative Return Dispersion:** Measuring idiosyncratic strength against peer averages.
